@@ -21,19 +21,6 @@ void zero_P(int L_t1, float t1[],int L_t2, float t2[],float* Pt_out1, float* Pt_
     for(i = 0; i<L; i++)
     {
 
-
-       /* // tab1
-        if(i<L_t1)
-            Pt_out1[i] = t1[i];
-        else
-            Pt_out1[i] = 0;
-
-        //tab2
-        if(i<L-L_t1-1)
-            Pt_out2[i] = 0;
-        else
-            Pt_out2[i] = t2[i-L_t1+1];*/
-
         if(i<(L_t1-1))
         {
             Pt_out1[i] = t1[i];

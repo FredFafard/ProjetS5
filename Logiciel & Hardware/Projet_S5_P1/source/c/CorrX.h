@@ -10,7 +10,7 @@
 
 
 void Corrx_c(int L, float t1[], float t2[], float* Pt_out);
-void Corrx_asm(int L_t1, float t1[], int L_t2, float t2[], float* t_out[]);
+void Corrx_asm(int L, float t1[], float t2[], float* Pt_out);
 
 void zero_P(int L_t1, float t1[],int L_t2, float t2[],float* Pt_out1, float* Pt_out2);
 
