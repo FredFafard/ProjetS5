@@ -1,3 +1,7 @@
+;TODO (Commentaires JB de la demo)
+;loader des zeros a linterieur de la grosse boucle plutot que faire une boucle independante dinitialisation
+;Pas faire la racine quand on va calculer le module de la FFT
+
 
 	.def _Corrx_asm
 
