@@ -1,0 +1,20 @@
+Configuration Générateur de fréquence (sweep de 20 kHz - 40 kHz)
+
+Utiliser générateurs au C1-4103
+
+- Connecter le BNC dans  «Channel Output» (jaune)
+- Sélectionner bouton «Sine»
+- Sélectionner bouton «Sweep»
+- Start frequency à 20 khz
+- Stop frequency à 40 khz
+- Amplitude à 10 Vpp
+- Offset à 0
+- Sweep à 20 ms
+
+Configuration de l'Oscilloscope pour FFT
+
+- Appuyer sur bouton «MATH MENU»
+- Mettre «Opération» à «FFT»
+- Mettre «Fenêtre» à «Hanning»
+- Ajuster la Position (Pos. en haut à droite) à 30 kHz
+- Ajuster (en bas à gauche) à 5 dB et 5 kHz par carrée
