@@ -12,7 +12,7 @@ short c=4096;
 void main(void)
 {
 
-    //Generation d'un vecteur contenant un sinus, formatté avec partie imaginaire (voir spru657c)
+    //Generation d'un vecteur contenant un sinus, formaté avec partie imaginaire (voir spru657c)
     int i;
     for(i=0;i<(8192);i++)
     {
